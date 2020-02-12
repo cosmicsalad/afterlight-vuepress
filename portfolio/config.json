@@ -12,22 +12,16 @@
       "external": false
     },
     {
-      "text": "Instagram",
-      "link": "https://www.instagram.com/its.nwa",
-      "position": "left",
-      "external": true
-    },
-    {
       "text": "Contact",
       "link": "mailto:hello@afterlight.co",
       "position": "right",
       "external": true
     },
     {
-      "text": "Journal",
-      "link": "/journal/",
-      "position": "right",
-      "external": false
+      "text": "Instagram",
+      "link": "https://www.instagram.com/its.nwa",
+      "position": "left",
+      "external": true
     }
   ]
 }
