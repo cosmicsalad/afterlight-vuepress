@@ -1,5 +1,5 @@
 <template>
-  <div class="project-list">
+  <div class="tutorial-list">
 
     <router-link
       :to="post.path"
@@ -25,7 +25,7 @@
     computed: {
       posts() {
         return this.$site.pages
-          .filter(x => x.path.startsWith('/works/') && !x.frontmatter.works_index)
+          .filter(x => x.path.startsWith('/tutorials/') && !x.frontmatter.works_index)
           .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
       }
     }
