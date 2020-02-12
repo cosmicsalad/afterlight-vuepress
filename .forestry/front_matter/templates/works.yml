@@ -34,3 +34,5 @@ fields:
   type: datetime
   config:
     required: true
+pages:
+- tutorials/test-post.md
